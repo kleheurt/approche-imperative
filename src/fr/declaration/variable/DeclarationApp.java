@@ -24,7 +24,6 @@ public class DeclarationApp {
 		ExerciceBoucleBase e1 = new ExerciceBoucleBase();
 		e1.afficherNombres();
 
-		
 	}
 
 }
