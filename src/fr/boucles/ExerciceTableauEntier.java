@@ -2,7 +2,7 @@ package fr.boucles;
 
 public class ExerciceTableauEntier {
 	
-	public void afficherTableau() {
+	public static void afficherTableau() {
 		int[] tab = {1,2,3,4,5,6,7,8,9,10};
 		
 		//Affichage du premier élément
@@ -17,6 +17,10 @@ public class ExerciceTableauEntier {
 		//Modification élément index 4 et vérification
 		tab[4] = 8;
 		System.out.println(tab[4]);
+	}
+	
+	public static void main (String[] args) {
+		afficherTableau();
 	}
 
 }
